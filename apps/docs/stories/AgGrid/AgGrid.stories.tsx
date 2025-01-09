@@ -14,6 +14,7 @@ const column: ColDef[] = [
     field: "name",
     width: 150,
   },
+
   {
     headerName: "age",
     field: "age",
