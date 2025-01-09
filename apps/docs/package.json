@@ -8,6 +8,7 @@
     "build": "storybook build",
     "start": "serve storybook-static",
     "clean": "rm -rf .turbo && rm -rf node_modules",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0"
   },
   "dependencies": {
