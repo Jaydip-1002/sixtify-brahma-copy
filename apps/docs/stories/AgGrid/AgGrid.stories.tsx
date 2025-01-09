@@ -4,7 +4,7 @@ import { ColDef } from "ag-grid-community";
 
 const column: ColDef[] = [
   {
-    headerName: "Id",
+    headerName: "SampleId",
     field: "id",
     sortable: false,
     width: 150,
