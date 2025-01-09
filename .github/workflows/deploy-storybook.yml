@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 20  # Use the Node.js version your project requires
 
+      - name: Install PNPM Globally
+      run: npm install -g pnpm
+
       # Step 3: Install dependencies
       - name: Install dependencies
         run: pnpm install  # Use `npm install` or `yarn install` if not using pnpm
