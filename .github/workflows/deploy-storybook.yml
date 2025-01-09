@@ -4,7 +4,7 @@ name: Deploy Storybook to GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust this to match your branch name
+      - master  # Adjust this to match your branch name
 
 jobs:
   deploy:
